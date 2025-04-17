@@ -5,50 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Snake Game</title>
     <style>
-        body {
-          margin: 0;
-          padding: 0;
-          background-color: #121212;
-          color: #ffffff;
-          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-          text-align: center;
-        }
-        h1 {
-          color: #00d1b2;
-          padding: 1rem;
-        }
-        canvas {
-          display: block;
-          margin: 0 auto;
-          background-color: #1e1e1e;
-          border: 3px solid #00d1b2;
-          box-shadow: 0 0 10px #00d1b2;
-          touch-action: none;
-        }
-        .controls {
-          margin-top: 1rem;
-        }
-        button {
-          background-color: #00d1b2;
-          color: #121212;
-          padding: 0.5rem 1rem;
-          border: none;
-          border-radius: 5px;
-          font-weight: bold;
-          cursor: pointer;
-        }
-        button:hover {
-          background-color: #00b89c;
-        }
-        .score, .timer {
-          font-size: 1.2rem;
-          margin: 0.5rem;
-        }
-    </style>
+	  body {
+		margin: 0;
+		padding: 0;
+		background-color: #00AEEF; /* lighter blue background */
+		color: #5f5f5f; /* soft grey text */
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		text-align: center;
+	  }
+
+	  h1 {
+		color: #ffffff;
+		padding: 1rem;
+	  }
+
+	  canvas {
+		display: block;
+		margin: 0 auto;
+		background-color: #f0f0f0; /* light grey background */
+		border: 3px solid #6c6f6f; /* light blue border */
+		box-shadow: 0 0 10px #6c6f6f; /* subtle blue glow */
+		touch-action: none;
+	  }
+
+	  .controls {
+		margin-top: 1rem;
+	  }
+
+	  button {
+		background-color: #ffffff; /* light blue button */
+		color: #00AEEF; /* white text */
+		padding: 0.5rem 1rem;
+		border: none;
+		border-radius: 5px;
+		font-weight: bold;
+		cursor: pointer;
+	  }
+
+	  button:hover {
+		background-color: #3399ff; /* slightly darker blue on hover */
+	  }
+
+	  .score, .timer {
+		font-size: 1.2rem;
+		margin: 0.5rem;
+		color: #ffffff; /* consistent with body text */
+	  }
+	</style>
 </head>
 <body>
 <h1>Snake Game</h1>
-<h2>Score 25 points or higher to win</h2>
+<h2>Score 20 points or higher to win. Take a screenshot and come show at the booth to win goodies</h2>
 <div class="score">Score: <span id="score">0</span></div>
 <div class="timer">Time left: <span id="timer">60</span>s</div>
 <canvas id="gameCanvas"></canvas>
