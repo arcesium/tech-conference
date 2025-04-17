@@ -4,136 +4,143 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Tower of Hanoi</title>
-  <style>
-    :root {
-      --tower-width: 22vw;
-      --tower-height: 35vh;
-      --disk-height: 2.5vh;
-    }
+ <style>
+	  :root {
+  		--tower-width: 22vw;
+  		--tower-height: 35vh;
+  		--disk-height: 2.5vh;
+  		--main-blue: #00AEEF;
+  		--light-grey: #f0f0f0;
+  		--medium-grey: #5f5f5f;
+  		--white: #ffffff;
+	  }
 
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #121212;
-      color: #fff;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 1rem;
-      margin: 0;
-      overflow-x: hidden;
-    }
+	  body {
+  		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  		background-color: #00AEEF; /* lighter blue background */
+  		color: var(--medium-grey);
+  		display: flex;
+  		flex-direction: column;
+  		align-items: center;
+  		padding: 1rem;
+  		margin: 0;
+  		overflow-x: hidden;
+	  }
 
-    h1 {
-      color: #00d1b2;
-      margin-bottom: 1rem;
-      text-align: center;
-      font-size: 1.6rem;
-    }
+	  h1 {
+  		color: var(--white);
+  		margin-bottom: 1rem;
+  		text-align: center;
+  		font-size: 1.6rem;
+	  }
 
-    .instructions {
-      margin-bottom: 1rem;
-      font-size: 0.95rem;
-      text-align: center;
-      max-width: 90vw;
-    }
+	  .instructions {
+  		margin-bottom: 1rem;
+  		font-size: 0.95rem;
+  		text-align: center;
+  		max-width: 90vw;
+  		color: var(--white);
+	  }
 
-    .game {
-      display: flex;
-      justify-content: center;
-      align-items: flex-end;
-      gap: 4vw;
-      margin: 1rem 0;
-      width: 100%;
-      flex-wrap: nowrap;
-      overflow-x: auto;
-    }
+	  .game {
+  		display: flex;
+  		justify-content: center;
+  		align-items: flex-end;
+  		gap: 4vw;
+  		margin: 1rem 0;
+  		width: 100%;
+  		flex-wrap: nowrap;
+  		overflow-x: auto;
+	  }
 
-    .tower {
-      width: var(--tower-width);
-      max-width: 100px;
-      height: var(--tower-height);
-      border: 2px solid #00d1b2;
-      background: #1e1e1e;
-      box-shadow: 0 0 10px #00d1b2;
-      position: relative;
-      display: flex;
-      flex-direction: column-reverse;
-      align-items: center;
-      padding: 8px;
-      box-sizing: border-box;
-    }
+	  .tower {
+  		width: var(--tower-width);
+  		max-width: 100px;
+  		height: var(--tower-height);
+  		border: 2px solid #6c6f6f;
+  		background: var(--light-grey);
+  		box-shadow: 0 0 10px var(--medium-gray);
+  		position: relative;
+  		display: flex;
+  		flex-direction: column-reverse;
+  		align-items: center;
+  		padding: 8px;
+  		box-sizing: border-box;
+	  }
 
-    .disk {
-      height: var(--disk-height);
-      border-radius: 4px;
-      margin: 2px 0;
-      text-align: center;
-      line-height: var(--disk-height);
-      color: #121212;
-      font-weight: bold;
-      width: 80%;
-      max-width: 100%;
-    }
+	  .disk {
+  		height: var(--disk-height);
+  		border-radius: 4px;
+  		margin: 2px 0;
+  		text-align: center;
+  		line-height: var(--disk-height);
+  		color: #ffffff;
+  		font-weight: bold;
+  		width: 80%;
+  		max-width: 100%;
+  		background-color: var(--main-blue);
+	  }
 
-    .selected {
-      outline: 2px solid #00d1b2;
-      outline-offset: -2px;
-      box-shadow: 0 0 8px #00d1b2;
-    }
+	  .selected {
+  		outline: 2px solid var(--main-blue);
+  		outline-offset: -2px;
+  		box-shadow: 0 0 8px var(--main-blue);
+	  }
 
-    .controls {
-      margin-top: 1rem;
-      display: flex;
-      flex-direction: column;
-      gap: 1rem;
-      align-items: center;
-    }
+	  .controls {
+  		margin-top: 1rem;
+  		display: flex;
+  		flex-direction: column;
+  		gap: 1rem;
+  		align-items: center;
+	  }
 
-    .timer {
-      font-size: 1.1rem;
-    }
+	  .timer {
+  		font-size: 1.1rem;
+  		color: var(--white);
+	  }
 
-    button {
-      background-color: #00d1b2;
-      color: #121212;
-      padding: 0.5rem 1.2rem;
-      border: none;
-      border-radius: 5px;
-      font-weight: bold;
-      cursor: pointer;
-    }
+	  button {
+  		background-color: var(--white);
+  		color: var(--main-blue);
+  		padding: 0.5rem 1.2rem;
+  		border: none;
+  		border-radius: 5px;
+  		font-weight: bold;
+  		cursor: pointer;
+	  }
 
-    button:hover {
-      background-color: #00b89c;
-    }
+	  button:hover {
+		  background-color: #3399ff;
+	  }
 
-    #message {
-      margin-top: 1rem;
-      color: #ff3860;
-      font-weight: bold;
-      text-align: center;
-    }
+	  #message {
+  		margin-top: 1rem;
+  		color: #ff3860;
+  		font-weight: bold;
+  		text-align: center;
+	  }
 
-    @media (max-width: 600px) {
-      :root {
-        --tower-width: 26vw;
-        --tower-height: 30vh;
-        --disk-height: 2.2vh;
-      }
-
-      h1 {
-        font-size: 1.3rem;
-      }
-
-      .instructions {
-        font-size: 0.9rem;
-      }
-
-      .timer {
-        font-size: 1rem;
-      }
-    }
-  </style>
+	  @media (max-width: 600px) {
+  		:root {
+  		  --tower-width: 26vw;
+  		  --tower-height: 30vh;
+  		  --disk-height: 2.2vh;
+  		}
+  
+  		h1 {
+  		  font-size: 1.3rem;
+  		}
+  
+  		.instructions {
+  		  font-size: 0.9rem;
+  		}
+  
+  		.timer {
+  		  font-size: 1rem;
+  		}
+	  }
+	</style>
 </head>
 <body>
 <h1>Tower of Hanoi</h1>
@@ -142,6 +149,7 @@
   1. Only one disk can be moved at a time.<br>
   2. You can only move the top disk of any tower.<br>
   3. No disk may be placed on top of a smaller disk.<br>
+  4. You have to click the disk you want to move and then click the tower you want to move it to. Dragging a disk will not work.<br>
   Complete it within 60 seconds!
 </div>
 <div class="game">
