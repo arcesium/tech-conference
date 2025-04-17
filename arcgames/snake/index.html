@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snake Game</title>
+    <style>
+        body {
+          margin: 0;
+          padding: 0;
+          background-color: #121212;
+          color: #ffffff;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          text-align: center;
+        }
+        h1 {
+          color: #00d1b2;
+          padding: 1rem;
+        }
+        canvas {
+          display: block;
+          margin: 0 auto;
+          background-color: #1e1e1e;
+          border: 3px solid #00d1b2;
+          box-shadow: 0 0 10px #00d1b2;
+          touch-action: none;
+        }
+        .controls {
+          margin-top: 1rem;
+        }
+        button {
+          background-color: #00d1b2;
+          color: #121212;
+          padding: 0.5rem 1rem;
+          border: none;
+          border-radius: 5px;
+          font-weight: bold;
+          cursor: pointer;
+        }
+        button:hover {
+          background-color: #00b89c;
+        }
+        .score, .timer {
+          font-size: 1.2rem;
+          margin: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+<h1>Snake Game</h1>
+<h2>Score 25 points or higher to win</h2>
+<div class="score">Score: <span id="score">0</span></div>
+<div class="timer">Time left: <span id="timer">60</span>s</div>
+<canvas id="gameCanvas"></canvas>
+<div class="controls">
+    <button onclick="startGame()">Restart</button>
+</div>
+<script>
+    const canvas = document.getElementById("gameCanvas");
+    const ctx = canvas.getContext("2d");
+    const scoreElement = document.getElementById("score");
+    const timerElement = document.getElementById("timer");
+
+    const logo = new Image();
+    logo.src = "arcesiumlogo.jpg";
+
+    let boxSize = 20;
+    let columns, rows, canvasWidth, canvasHeight;
+    let snake, food, dx, dy, score, game, timer, interval;
+
+    function resizeCanvas() {
+      const size = Math.floor(Math.min(window.innerWidth, window.innerHeight) * 0.65);
+      canvas.width = size;
+      canvas.height = size;
+      columns = Math.floor(size / boxSize);
+      rows = Math.floor(size / boxSize);
+      canvasWidth = columns * boxSize;
+      canvasHeight = rows * boxSize;
+    }
+
+    function createFood() {
+      food = {
+        x: Math.floor(Math.random() * columns) * boxSize,
+        y: Math.floor(Math.random() * rows) * boxSize,
+      };
+    }
+
+    function drawSnake() {
+      snake.forEach((segment) => {
+        ctx.drawImage(logo, segment.x, segment.y, boxSize, boxSize);
+      });
+    }
+
+    function drawFood() {
+      ctx.fillStyle = "#00d1b2";
+      ctx.fillRect(food.x, food.y, boxSize, boxSize);
+    }
+
+    function moveSnake() {
+      let head = {
+        x: (snake[0].x + dx + canvasWidth) % canvasWidth,
+        y: (snake[0].y + dy + canvasHeight) % canvasHeight
+      };
+      snake.unshift(head);
+      if (head.x === food.x && head.y === food.y) {
+        score++;
+        scoreElement.textContent = score;
+        createFood();
+      } else {
+        snake.pop();
+      }
+    }
+
+    function checkCollision() {
+      const [head, ...body] = snake;
+      if (body.some(segment => segment.x === head.x && segment.y === head.y)) {
+        clearInterval(game);
+        clearInterval(interval);
+        alert("Game Over! Score: " + score);
+      }
+    }
+
+    function gameLoop() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      drawFood();
+      moveSnake();
+      drawSnake();
+      checkCollision();
+    }
+
+    function startTimer() {
+      timer = 60;
+      timerElement.textContent = timer;
+      clearInterval(interval);
+      interval = setInterval(() => {
+        timer--;
+        timerElement.textContent = timer;
+        if (timer <= 0) {
+          clearInterval(game);
+          clearInterval(interval);
+          alert("⏰ Time's up! Score: " + score);
+        }
+      }, 1000);
+    }
+
+    function startGame() {
+      resizeCanvas();
+      snake = [{ x: Math.floor(columns / 2) * boxSize, y: Math.floor(rows / 2) * boxSize }];
+      dx = boxSize;
+      dy = 0;
+      score = 0;
+      scoreElement.textContent = score;
+      createFood();
+      clearInterval(game);
+      game = setInterval(gameLoop, 150);
+      startTimer();
+    }
+
+    window.addEventListener('resize', () => {
+      clearInterval(game);
+      clearInterval(interval);
+      startGame();
+    });
+
+    document.addEventListener("keydown", (e) => {
+      switch (e.key) {
+        case "ArrowUp": if (dy === 0) { dx = 0; dy = -boxSize; } break;
+        case "ArrowDown": if (dy === 0) { dx = 0; dy = boxSize; } break;
+        case "ArrowLeft": if (dx === 0) { dx = -boxSize; dy = 0; } break;
+        case "ArrowRight": if (dx === 0) { dx = boxSize; dy = 0; } break;
+      }
+    });
+
+    let touchStartX = 0;
+    let touchStartY = 0;
+
+    canvas.addEventListener("touchstart", (e) => {
+      const touch = e.touches[0];
+      touchStartX = touch.clientX;
+      touchStartY = touch.clientY;
+    });
+
+    canvas.addEventListener("touchend", (e) => {
+      const touch = e.changedTouches[0];
+      const dxTouch = touch.clientX - touchStartX;
+      const dyTouch = touch.clientY - touchStartY;
+
+      if (Math.abs(dxTouch) > Math.abs(dyTouch)) {
+        if (dxTouch > 0 && dx === 0) { dx = boxSize; dy = 0; }
+        else if (dxTouch < 0 && dx === 0) { dx = -boxSize; dy = 0; }
+      } else {
+        if (dyTouch > 0 && dy === 0) { dx = 0; dy = boxSize; }
+        else if (dyTouch < 0 && dy === 0) { dx = 0; dy = -boxSize; }
+      }
+    });
+
+    startGame();
+</script>
+</body>
+</html>
