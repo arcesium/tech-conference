@@ -5,83 +5,100 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
     <title>Maze Game</title>
     <style>
-        html, body {
-          margin: 0;
-          padding: 0;
-          background-color: #121212;
-          color: #ffffff;
-          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-          text-align: center;
-          overflow: hidden; /* Prevent scrolling */
-          touch-action: none; /* Disable touch scrolling */
-        }
-        h1 {
-          color: #00d1b2;
-          margin: 1rem 0 0.5rem;
-        }
-        .instructions {
-          margin: 0 auto 1rem;
-          font-size: 0.95rem;
-          max-width: 600px;
-        }
-        .maze {
-          display: grid;
-          width: 75vw;
-          height: 50vh;
-          gap: 2px;
-          margin: 1rem auto;
-        }
-        .cell {
-          box-sizing: border-box;
-          width: 100%;
-          height: 100%;
-        }
-        .wall {
-          background-color: #333333;
-          border: 1px solid #555;
-        }
-        .path {
-          background-color: #1e1e1e;
-          border: 1px solid #00d1b2;
-        }
-        .player {
-          background-image: url('arcesiumlogo.jpg');
-          background-size: cover;
-          background-position: center;
-        }
-        .goal {
-          background-color: #00d1b2;
-        }
-        .controls {
-          margin-top: 1rem;
-        }
-        .timer {
-          font-size: 1.2rem;
-          margin: 0.5rem;
-        }
-        button {
-          background-color: #00d1b2;
-          color: #121212;
-          padding: 0.5rem 1rem;
-          border: none;
-          border-radius: 5px;
-          font-weight: bold;
-          cursor: pointer;
-        }
-        button:hover {
-          background-color: #00b89c;
-        }
-        #message {
-          margin-top: 1rem;
-          font-size: 1.2rem;
-          font-weight: bold;
-        }
-    </style>
+	  html, body {
+		margin: 0;
+		padding: 0;
+		background-color: #00AEEF; /* lighter blue background */
+		color: #5f5f5f; /* soft grey text */
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		text-align: center;
+		overflow: hidden;
+		touch-action: none;
+	  }
+	
+	  h1 {
+		color: #ffffff; /* logo-inspired blue */
+		margin: 1rem 0 0.5rem;
+	  }
+	
+	  .instructions {
+		margin: 0 auto 1rem;
+		font-size: 0.95rem;
+		max-width: 600px;
+		color: #ffffff;
+	  }
+	
+	  .maze {
+		display: grid;
+		width: 75vw;
+		height: 50vh;
+		gap: 2px;
+		margin: 1rem auto;
+	  }
+	
+	  .cell {
+		box-sizing: border-box;
+		width: 100%;
+		height: 100%;
+	  }
+	
+	  .wall {
+		background-color: #cfcfcf; /* soft light grey */
+		border: 1px solid #a0a0a0; /* medium grey */
+	  }
+	
+	  .path {
+		background-color: #f0f0f0; /* very light grey */
+		border: 1px solid #ffffff; /* light blue borders */
+	  }
+	
+	  .player {
+		background-image: url('arcesiumlogo.jpg');
+		background-size: cover;
+		background-position: center;
+	  }
+	
+	  .goal {
+		background-color: #00AEEF; /* light blue goal */
+		box-shadow: 0 0 10px #4da6ff; /* subtle blue glow */
+	  }
+	
+	  .controls {
+		margin-top: 1rem;
+	  }
+	
+	  .timer {
+		font-size: 1.2rem;
+		margin: 0.5rem;
+		color: #ffffff;
+	  }
+	
+	  button {
+		background-color: #ffffff;
+		color: #00AEEF;
+		padding: 0.5rem 1rem;
+		border: none;
+		border-radius: 5px;
+		font-weight: bold;
+		cursor: pointer;
+	  }
+	
+	  button:hover {
+		background-color: #3399ff;
+	  }
+	
+	  #message {
+		margin-top: 1rem;
+		font-size: 1.2rem;
+		font-weight: bold;
+		color: #ff3860;
+	  }
+	</style>
 </head>
 <body>
 <h1>Maze Challenge</h1>
 <div class="instructions">
-    Use arrow keys (or swipe on mobile) to move the Arcesium logo to the teal square. Reach the goal within 60 seconds!
+    Use arrow keys (or swipe on mobile) to move the Arcesium logo to the Blue square. Reach the goal within 60 seconds! Take a screenshot and come show it to us at the booth to win exciting goodies
 </div>
 <div class="timer">Time left: <span id="timer">60</span>s</div>
 <div id="maze" class="maze"></div>
