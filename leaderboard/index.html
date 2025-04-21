@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32"
+        href="https://www.arcesium.com/wp-content/themes/arcesium/assets/fav/favicon-32x32.png">
+
+    <title>Arcquizitive - GIDS 2024 Challenge</title>
+    <style>
+        html,
+        body {
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            font-size: 2.5vh;
+
+        }
+
+        .bg {
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .l1 {
+            background-image: url('./assets/background.png');
+
+        }
+
+        @media (width <=850px) {
+            .l2 {
+                background-image: url('./assets/elements.png');
+                width: 100%;
+            }
+        }
+
+        @media (width > 850px) {
+            .l2 {
+                background-image: url('./assets/elements.png');
+            }
+        }
+
+
+        .l2 {
+            width: 100vw;
+        }
+
+        h1 {
+            color: #fff084;
+            font-size: 3.6vh;
+            font-weight: 900;
+            text-transform: uppercase;
+
+        }
+
+        h2 {
+            font-weight: lighter;
+            font-size: 3vh;
+        }
+
+        ul {
+            font-weight: lighter;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            font-size: 2.6vh;
+            margin: 1.5vh 0;
+        }
+
+        img {
+            margin-bottom: 2vh;
+            height: 6vh;
+        }
+
+        a {
+            color: unset;
+            text-decoration: unset;
+        }
+
+        a:hover {
+            color: rgba(255, 255, 255, 0.5);
+        }
+
+        div.table div {
+            display: flex;
+        }
+
+        .body {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .body > div {
+            display: flex;
+        }
+
+        .header > div {
+            background: rgba(255, 0, 0, 0.6);
+            margin: 1px 1px;
+            padding: 4px 10px;
+            border-radius: 4px;
+            display: block;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            text-overflow: clip;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .body > div > div {
+            background: rgba(0, 0, 0, 0.6);
+            margin: 1px 1px;
+            padding: 4px 10px;
+            border-radius: 4px;
+            display: block;
+            display: flex;
+            align-items: center;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .table {
+            width: 75vw;
+        }
+
+        .header, .row {
+            width: 100%;
+        }
+
+        .pos {
+            width: 10%;
+            justify-content: center;
+
+        }
+    
+        .name {
+            width: 30%;
+        }
+
+        .score {
+            width: 10%;
+            justify-content: center;
+
+        }
+
+        .last {
+            width: 30%;
+            justify-content: center;
+
+        }
+
+        .time {
+            width: 20%;
+            justify-content: center;
+
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <div class="bg l1">
+        <div class="bg l2">
+            <div class="logo">
+                <img src="assets/arcesium.png" alt="Arecesium" />
+            </div>
+            <h1 id="title">All time leaders</h1>
+
+            <div>
+                <div class="table">
+                    <div class="header">
+                        <div class="pos">#</span></div>
+                        <div class="name">Name</span></div>
+                        <div class="score">Score</span></div>
+                        <div class="last">Last Attempted</span></div>
+                        <div class="time">Time Taken</span></div>
+                    </div>
+                    <div class="body">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+
+    const filenames = 'consolidated day1 day2 day3 day4'.split(' ')
+    let showing = 'consolidated';
+
+    window.addEventListener("load", (event) => {
+
+        const modifyHeader = (filename) => {
+            const title = document.getElementById("title");
+            if (filename == 'consolidated') {
+                title.innerText = 'All time leaders'
+            } else {
+                title.innerText = 'Today\'s Leaderboard'
+            }
+        }
+        const secondToDisplayString = (totalSeconds) => {
+            return new Date(totalSeconds * 1000).toISOString().substring(11, 16);
+        }
+
+        const toggleAndGetFileName = () => {
+            if (showing == 'consolidated') {
+                showing = 'daily'
+                return filenames[0]
+            } else {
+                showing = 'consolidated';
+                // the event is on 23rd
+                return filenames[Math.max(new Date().getDay() - 22, 1)];
+            }
+        }
+
+        const addToTable = (data) => {
+            const body = document.getElementsByClassName('body')[0];
+            body.innerHTML = ''
+            
+            data.forEach((element, index) => {
+                console.log(element)
+                const name = `${element.lastName}, ${element.firstName}`
+                const score = element.score
+                const timeTaken = secondToDisplayString(element.timeInSeconds);
+                const endDate = element.endDate;
+                
+                
+
+                var row = document.createElement('div');
+                row.className = "row"
+                row.innerHTML = `
+                <div class="pos" class="cell">${index + 1}</div>
+                <div class="name" class="cell">${name}</div>
+                <div class="score" class="cell">${score}</div>
+                <div class="last" class="cell">${endDate}</div>
+                <div class="time" class="cell">${timeTaken}</div>
+            `;
+                body.appendChild(row);
+            });
+        }
+
+        console.log('page has loaded')
+
+        setInterval(() => {
+            
+            const fileName = toggleAndGetFileName()
+            modifyHeader(fileName)
+            console.log('changing the view', fileName)
+
+            fetch(`./${fileName}.json`).then(res => {
+                return res.json()
+            }).then(data => {
+                console.log(data)
+                data = data.sort((a, b) => a.score - b.score)
+                
+                addToTable(data)
+            })
+        }, 1000)
+    });
+</script>
+
+</html>

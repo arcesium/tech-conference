@@ -1,0 +1,5 @@
+[
+    {"firstName": "John", "lastName": "Consolidated And A long name", "score": 10, "correct": 8, "endDate": "2024-04-19", "timeInSeconds": 200},
+    {"firstName": "Alice", "lastName": "Consolidated", "score": 14, "correct": 8, "endDate": "2024-04-19", "timeInSeconds": 200},
+    {"firstName": "Foo", "lastName": "Consolidated", "correct": 8, "endDate": "2024-04-19", "timeInSeconds": 200}
+]
