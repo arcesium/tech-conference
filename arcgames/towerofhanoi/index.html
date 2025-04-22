@@ -158,14 +158,14 @@
   <div class="tower" id="tower-2" onclick="handleTowerClick(2)"></div>
 </div>
 <div class="controls">
-  <div class="timer">Time left: <span id="timer">60</span>s</div>
+  <div class="timer">Time left: <span id="timer">45</span>s</div>
   <button onclick="restartGame()">Restart</button>
 </div>
 <div id="message"></div>
 
 <script>
-  const NUM_DISKS = 6;
-  let towers, selectedTower = null, timeLeft = 60, timerInterval;
+  const NUM_DISKS = 5;
+  let towers, selectedTower = null, timeLeft = 45, timerInterval;
   const timerEl = document.getElementById('timer');
   const messageEl = document.getElementById('message');
 
