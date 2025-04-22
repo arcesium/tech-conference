@@ -1,5 +1,130 @@
 [
-    {"firstName": "John", "lastName": "Consolidated And A long name", "score": 10, "correct": 8, "endDate": "2024-04-19", "timeInSeconds": 200},
-    {"firstName": "Alice", "lastName": "Consolidated", "score": 14, "correct": 8, "endDate": "2024-04-19", "timeInSeconds": 200},
-    {"firstName": "Foo", "lastName": "Consolidated", "correct": 8, "endDate": "2024-04-19", "timeInSeconds": 200}
+    {
+        "lastName": "Kumar",
+        "firstName": "Santhosh",
+        "emailAddress": "Santhosh.Tirukkovellour@gmail.com",
+        "score": 17,
+        "timeInSeconds": 555,
+        "time": "00:09:15"
+    },
+    {
+        "lastName": "MB",
+        "firstName": "Raghavendra",
+        "emailAddress": "raghavendra.mb@maersk.com",
+        "score": 10,
+        "timeInSeconds": 791,
+        "time": "00:13:11"
+    },
+    {
+        "lastName": "Vashishth",
+        "firstName": "Ankush",
+        "emailAddress": "Ankushvashishth12@gmail.com",
+        "score": 9,
+        "timeInSeconds": 495,
+        "time": "00:08:15"
+    },
+    {
+        "lastName": "Vijay",
+        "firstName": "Prateek",
+        "emailAddress": "prateekvjjpr65@gmail.com",
+        "score": 8,
+        "timeInSeconds": 328,
+        "time": "00:05:28"
+    },
+    {
+        "lastName": "Rangasami",
+        "firstName": "Amritha",
+        "emailAddress": "amritharangasami@gmail.com",
+        "score": 7,
+        "timeInSeconds": 232,
+        "time": "00:03:52"
+    },
+    {
+        "lastName": "L",
+        "firstName": "Srini",
+        "emailAddress": "atulsrinivasan12@gmail.com",
+        "score": 7,
+        "timeInSeconds": 390,
+        "time": "00:06:30"
+    },
+    {
+        "lastName": "Malik",
+        "firstName": "Amar",
+        "emailAddress": "mr.amarmalik.01@gmail.com",
+        "score": 6,
+        "timeInSeconds": 483,
+        "time": "00:08:03"
+    },
+    {
+        "lastName": "Mohire",
+        "firstName": "Shishir",
+        "emailAddress": "samohire98@gmail.com",
+        "score": 6,
+        "timeInSeconds": 900,
+        "time": "00:15:00"
+    },
+    {
+        "lastName": "Jha",
+        "firstName": "Roshan",
+        "emailAddress": "Jharoshan890@gmail.com",
+        "score": 5,
+        "timeInSeconds": 171,
+        "time": "00:02:51"
+    },
+    {
+        "lastName": "Jindal",
+        "firstName": "Prakhar",
+        "emailAddress": "er.prakharjindal@gmail.com",
+        "score": 5,
+        "timeInSeconds": 230,
+        "time": "00:03:50"
+    },
+    {
+        "lastName": "Kumar",
+        "firstName": "Prabhat",
+        "emailAddress": "Pkprabhat2017@gmail.com",
+        "score": 5,
+        "timeInSeconds": 316,
+        "time": "00:05:16"
+    },
+    {
+        "lastName": "Anand",
+        "firstName": "Divya",
+        "emailAddress": "divinediwya@gmail.com",
+        "score": 1,
+        "timeInSeconds": 900,
+        "time": "00:15:00"
+    },
+    {
+        "lastName": "Sharma",
+        "firstName": "Ashish",
+        "emailAddress": "ashishjgec23@gmail.com",
+        "score": 1,
+        "timeInSeconds": 900,
+        "time": "00:15:00"
+    },
+    {
+        "lastName": "Garg",
+        "firstName": "Saloni",
+        "emailAddress": "Salonigarg445@gmail.com",
+        "score": 0,
+        "timeInSeconds": 900,
+        "time": "00:15:00"
+    },
+    {
+        "lastName": "Amarnath",
+        "firstName": "Pradeep",
+        "emailAddress": "prad2612@gmail.com",
+        "score": 0,
+        "timeInSeconds": 900,
+        "time": "00:15:00"
+    },
+    {
+        "lastName": "Sharan",
+        "firstName": "Ranjan",
+        "emailAddress": "rscrazykool@gmail.com",
+        "score": 0,
+        "timeInSeconds": 900,
+        "time": "00:15:00"
+    }
 ]
