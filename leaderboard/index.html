@@ -256,11 +256,14 @@
                 const score = element.score
                 const timeTaken = secondToDisplayString(element.timeInSeconds);
                 const endDate = element.endDate;
+
+		const crowns = ["👑🥇", "👑🥈", "👑🥉"];
+		const position = (index < 3) ? `${crowns[index]}` : `${index + 1}`;
                 
                 var row = document.createElement('div');
                 row.className = "row"
                 row.innerHTML = `
-                <div class="pos" class="cell">${index + 1}</div>
+                <div class="pos" class="cell">${position}</div>
                 <div class="name" class="cell">${name}</div>
                 <div class="score" class="cell">${score}</div>
             `;
