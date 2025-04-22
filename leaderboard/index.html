@@ -221,14 +221,29 @@
         }
 
         const toggleAndGetFileName = () => {
+
+           showing = 'consolidated'
+
+	   return 'consolidated'
+
+	   /*
+
             if (showing == 'consolidated') {
+
                 showing = 'daily'
+
                 return filenames[0]
+
             } else {
+
                 showing = 'consolidated';
+
                 // the event is on 23rd
+
                 return filenames[Math.max(new Date().getDay() - 22, 1)];
-            }
+
+            }*/
+
         }
 
         const addToTable = (data) => {
@@ -265,7 +280,7 @@
                 return res.json()
             }).then(data => {
                 console.log(data)
-                data = data.sort((a, b) => a.score - b.score)
+                data = data.sort((a, b) => b.score - a.score)
                 
                 addToTable(data)
             })
