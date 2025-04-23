@@ -150,7 +150,7 @@
   2. You can only move the top disk of any tower.<br>
   3. No disk may be placed on top of a smaller disk.<br>
   4. You have to click the disk you want to move and then click the tower you want to move it to. Dragging a disk will not work.<br>
-  Complete it within 30 seconds! Take a screenshot and come show it to us at the booth to win exciting goodies
+  Complete it within 60 seconds! Take a screenshot and come show it to us at the booth to win exciting goodies
 </div>
 <div class="game">
   <div class="tower" id="tower-0" onclick="handleTowerClick(0)"></div>
@@ -158,14 +158,14 @@
   <div class="tower" id="tower-2" onclick="handleTowerClick(2)"></div>
 </div>
 <div class="controls">
-  <div class="timer">Time left: <span id="timer">30</span>s</div>
+  <div class="timer">Time left: <span id="timer">60</span>s</div>
   <button onclick="restartGame()">Restart</button>
 </div>
 <div id="message"></div>
 
 <script>
-  const NUM_DISKS = 5;
-  let towers, selectedTower = null, timeLeft = 30, timerInterval;
+  const NUM_DISKS = 6;
+  let towers, selectedTower = null, timeLeft = 60, timerInterval;
   const timerEl = document.getElementById('timer');
   const messageEl = document.getElementById('message');
 
@@ -227,7 +227,7 @@
   function restartGame() {
     towers = [[...Array(NUM_DISKS).keys()].map(i => NUM_DISKS - i), [], []];
     selectedTower = null;
-    timeLeft = 30;
+    timeLeft = 60;
     messageEl.textContent = '';
     renderTowers();
     clearInterval(timerInterval);
