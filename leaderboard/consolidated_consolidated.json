@@ -5,7 +5,8 @@
         "emailAddress": "psh@narola.email",
         "score": 19,
         "timeInSeconds": 880,
-        "time": "00:14:40"
+        "time": "00:14:40",
+        "numberOfTimesRespondentsLeftQuestionPage": "3"
     },
     {
         "lastName": "Patel",
@@ -13,7 +14,26 @@
         "emailAddress": "pmp@narola.email",
         "score": 19,
         "timeInSeconds": 576,
-        "time": "00:09:36"
+        "time": "00:09:36",
+        "numberOfTimesRespondentsLeftQuestionPage": "1"
+    },
+    {
+        "lastName": "Mahajan",
+        "firstName": "Ananya",
+        "emailAddress": "ananya021311@gmail.com",
+        "score": 19,
+        "timeInSeconds": 811,
+        "time": "00:13:31",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
+    },
+    {
+        "lastName": "C",
+        "firstName": "ANMOL",
+        "emailAddress": "anmolchopra1508@gmail.com",
+        "score": 18,
+        "timeInSeconds": 711,
+        "time": "00:11:51",
+        "numberOfTimesRespondentsLeftQuestionPage": "1"
     },
     {
         "lastName": "Kumar",
@@ -21,7 +41,8 @@
         "emailAddress": "santhosh.tirukkovellour@gmail.com",
         "score": 17,
         "timeInSeconds": 555,
-        "time": "00:09:15"
+        "time": "00:09:15",
+        "numberOfTimesRespondentsLeftQuestionPage": "1"
     },
     {
         "lastName": "kotnala",
@@ -29,7 +50,8 @@
         "emailAddress": "urs.srisai001@gmail.com",
         "score": 17,
         "timeInSeconds": 569,
-        "time": "00:09:29"
+        "time": "00:09:29",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Maddu",
@@ -37,7 +59,8 @@
         "emailAddress": "lakshmianisha5@gmail.com",
         "score": 17,
         "timeInSeconds": 411,
-        "time": "00:06:51"
+        "time": "00:06:51",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "MB",
@@ -45,7 +68,8 @@
         "emailAddress": "raghavendra.mb@maersk.com",
         "score": 17,
         "timeInSeconds": 822,
-        "time": "00:13:42"
+        "time": "00:13:42",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "R",
@@ -53,7 +77,8 @@
         "emailAddress": "pradeep23.doc@gmail.com",
         "score": 16,
         "timeInSeconds": 417,
-        "time": "00:06:57"
+        "time": "00:06:57",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Damle",
@@ -61,7 +86,8 @@
         "emailAddress": "damleharsha@gmail.com",
         "score": 16,
         "timeInSeconds": 900,
-        "time": "00:15:00"
+        "time": "00:15:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "4"
     },
     {
         "lastName": "Nagarajan",
@@ -69,7 +95,8 @@
         "emailAddress": "anurudha418@gmail.com",
         "score": 16,
         "timeInSeconds": 798,
-        "time": "00:13:18"
+        "time": "00:13:18",
+        "numberOfTimesRespondentsLeftQuestionPage": "3"
     },
     {
         "lastName": "T Jat",
@@ -77,7 +104,8 @@
         "emailAddress": "priyanshatjat@gmail.com",
         "score": 16,
         "timeInSeconds": 417,
-        "time": "00:06:57"
+        "time": "00:06:57",
+        "numberOfTimesRespondentsLeftQuestionPage": "1"
     },
     {
         "lastName": "Chopra",
@@ -85,7 +113,8 @@
         "emailAddress": "chopra.anmol01@gmail.com",
         "score": 16,
         "timeInSeconds": 803,
-        "time": "00:13:23"
+        "time": "00:13:23",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Twinwal",
@@ -93,7 +122,8 @@
         "emailAddress": "gajendrakumartwinwal@gmail.com",
         "score": 16,
         "timeInSeconds": 895,
-        "time": "00:14:55"
+        "time": "00:14:55",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Younus",
@@ -101,7 +131,8 @@
         "emailAddress": "mohammedyounus824737@gmail.com",
         "score": 15,
         "timeInSeconds": 491,
-        "time": "00:08:11"
+        "time": "00:08:11",
+        "numberOfTimesRespondentsLeftQuestionPage": "1"
     },
     {
         "lastName": "J",
@@ -109,7 +140,8 @@
         "emailAddress": "aashishjhamtani@gmail.com",
         "score": 15,
         "timeInSeconds": 881,
-        "time": "00:14:41"
+        "time": "00:14:41",
+        "numberOfTimesRespondentsLeftQuestionPage": "2"
     },
     {
         "lastName": "Bandi",
@@ -117,7 +149,8 @@
         "emailAddress": "sravani2605@gmail.com",
         "score": 15,
         "timeInSeconds": 613,
-        "time": "00:10:13"
+        "time": "00:10:13",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Ajmal",
@@ -125,7 +158,8 @@
         "emailAddress": "ajith.ajmal@maersk.com",
         "score": 14,
         "timeInSeconds": 418,
-        "time": "00:06:58"
+        "time": "00:06:58",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Bhandare",
@@ -133,7 +167,8 @@
         "emailAddress": "priyanka40b@gmail.com",
         "score": 14,
         "timeInSeconds": 409,
-        "time": "00:06:49"
+        "time": "00:06:49",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "V",
@@ -141,7 +176,8 @@
         "emailAddress": "aryanvarshney1@gmail.com",
         "score": 14,
         "timeInSeconds": 764,
-        "time": "00:12:44"
+        "time": "00:12:44",
+        "numberOfTimesRespondentsLeftQuestionPage": "1"
     },
     {
         "lastName": "Aggarwal",
@@ -149,7 +185,8 @@
         "emailAddress": "aditya.aggarwal393@gmail.com",
         "score": 14,
         "timeInSeconds": 461,
-        "time": "00:07:41"
+        "time": "00:07:41",
+        "numberOfTimesRespondentsLeftQuestionPage": "1"
     },
     {
         "lastName": "Kumar",
@@ -157,7 +194,8 @@
         "emailAddress": "skmuz00@gmail.com",
         "score": 12,
         "timeInSeconds": 885,
-        "time": "00:14:45"
+        "time": "00:14:45",
+        "numberOfTimesRespondentsLeftQuestionPage": "2"
     },
     {
         "lastName": "Agarwal",
@@ -165,7 +203,8 @@
         "emailAddress": "veerdakshagarwal2012@gmail.com",
         "score": 12,
         "timeInSeconds": 738,
-        "time": "00:12:18"
+        "time": "00:12:18",
+        "numberOfTimesRespondentsLeftQuestionPage": "2"
     },
     {
         "lastName": "Aggarwal",
@@ -173,7 +212,8 @@
         "emailAddress": "agg.ank1992@gmail.com",
         "score": 12,
         "timeInSeconds": 595,
-        "time": "00:09:55"
+        "time": "00:09:55",
+        "numberOfTimesRespondentsLeftQuestionPage": "1"
     },
     {
         "lastName": "nema",
@@ -181,7 +221,8 @@
         "emailAddress": "tanyanema61@gmail.com",
         "score": 11,
         "timeInSeconds": 661,
-        "time": "00:11:01"
+        "time": "00:11:01",
+        "numberOfTimesRespondentsLeftQuestionPage": "1"
     },
     {
         "lastName": "M Bhat",
@@ -189,7 +230,8 @@
         "emailAddress": "ananyamohan14072@gmail.com",
         "score": 11,
         "timeInSeconds": 899,
-        "time": "00:14:59"
+        "time": "00:14:59",
+        "numberOfTimesRespondentsLeftQuestionPage": "1"
     },
     {
         "lastName": "Kadri",
@@ -197,7 +239,8 @@
         "emailAddress": "saifhasan.54@gmail.com",
         "score": 10,
         "timeInSeconds": 734,
-        "time": "00:12:14"
+        "time": "00:12:14",
+        "numberOfTimesRespondentsLeftQuestionPage": "3"
     },
     {
         "lastName": "Mullapudi",
@@ -205,7 +248,8 @@
         "emailAddress": "amrutha.mullapudi2000@gmail.com",
         "score": 10,
         "timeInSeconds": 899,
-        "time": "00:14:59"
+        "time": "00:14:59",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Mehta",
@@ -213,7 +257,8 @@
         "emailAddress": "ruchir.mehta2112@gmail.com",
         "score": 10,
         "timeInSeconds": 572,
-        "time": "00:09:32"
+        "time": "00:09:32",
+        "numberOfTimesRespondentsLeftQuestionPage": "3"
     },
     {
         "lastName": "Kathuria",
@@ -221,7 +266,8 @@
         "emailAddress": "gauravkathuria@hotmail.com",
         "score": 10,
         "timeInSeconds": 714,
-        "time": "00:11:54"
+        "time": "00:11:54",
+        "numberOfTimesRespondentsLeftQuestionPage": "1"
     },
     {
         "lastName": "DV",
@@ -229,7 +275,8 @@
         "emailAddress": "ramagiridv@hotmail.com",
         "score": 10,
         "timeInSeconds": 599,
-        "time": "00:09:59"
+        "time": "00:09:59",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Vashishth",
@@ -237,7 +284,8 @@
         "emailAddress": "ankushvashishth12@gmail.com",
         "score": 9,
         "timeInSeconds": 495,
-        "time": "00:08:15"
+        "time": "00:08:15",
+        "numberOfTimesRespondentsLeftQuestionPage": "1"
     },
     {
         "lastName": "Joshi",
@@ -245,7 +293,8 @@
         "emailAddress": "karthik.joshi103@gmail.com",
         "score": 9,
         "timeInSeconds": 198,
-        "time": "00:03:18"
+        "time": "00:03:18",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Pucha",
@@ -253,7 +302,8 @@
         "emailAddress": "anirudhpucha@outlook.com",
         "score": 9,
         "timeInSeconds": 240,
-        "time": "00:04:00"
+        "time": "00:04:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Wagay",
@@ -261,7 +311,8 @@
         "emailAddress": "sakibyousuf17@gmail.com",
         "score": 9,
         "timeInSeconds": 618,
-        "time": "00:10:18"
+        "time": "00:10:18",
+        "numberOfTimesRespondentsLeftQuestionPage": "1"
     },
     {
         "lastName": "Agarwal",
@@ -269,7 +320,8 @@
         "emailAddress": "akhil_agarwal006@yahoo.in",
         "score": 9,
         "timeInSeconds": 636,
-        "time": "00:10:36"
+        "time": "00:10:36",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Sharma",
@@ -277,7 +329,8 @@
         "emailAddress": "ashu990116@gmail.com",
         "score": 9,
         "timeInSeconds": 356,
-        "time": "00:05:56"
+        "time": "00:05:56",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Patel",
@@ -285,7 +338,8 @@
         "emailAddress": "patelprayag02.pp@gmail.com",
         "score": 9,
         "timeInSeconds": 405,
-        "time": "00:06:45"
+        "time": "00:06:45",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Hussain",
@@ -293,7 +347,8 @@
         "emailAddress": "shahh04@gmail.com",
         "score": 9,
         "timeInSeconds": 705,
-        "time": "00:11:45"
+        "time": "00:11:45",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Puniyani",
@@ -301,7 +356,26 @@
         "emailAddress": "eramanpunyani@gmail.com",
         "score": 9,
         "timeInSeconds": 693,
-        "time": "00:11:33"
+        "time": "00:11:33",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
+    },
+    {
+        "lastName": "Thomas",
+        "firstName": "Yeldho",
+        "emailAddress": "yeldho.thomas@gmail.com",
+        "score": 9,
+        "timeInSeconds": 425,
+        "time": "00:07:05",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
+    },
+    {
+        "lastName": "Seeke",
+        "firstName": "Shankara",
+        "emailAddress": "prasadssvv.777@gmail.com",
+        "score": 9,
+        "timeInSeconds": 533,
+        "time": "00:08:53",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Vijay",
@@ -309,7 +383,8 @@
         "emailAddress": "prateekvjjpr65@gmail.com",
         "score": 8,
         "timeInSeconds": 328,
-        "time": "00:05:28"
+        "time": "00:05:28",
+        "numberOfTimesRespondentsLeftQuestionPage": "1"
     },
     {
         "lastName": "Gautam",
@@ -317,7 +392,8 @@
         "emailAddress": "amitgautam26jnv@gmail.com",
         "score": 8,
         "timeInSeconds": 569,
-        "time": "00:09:29"
+        "time": "00:09:29",
+        "numberOfTimesRespondentsLeftQuestionPage": "1"
     },
     {
         "lastName": "Sawarkar",
@@ -325,7 +401,8 @@
         "emailAddress": "mayursawarkar14@gmail.com",
         "score": 8,
         "timeInSeconds": 206,
-        "time": "00:03:26"
+        "time": "00:03:26",
+        "numberOfTimesRespondentsLeftQuestionPage": "4"
     },
     {
         "lastName": "Shah",
@@ -333,7 +410,8 @@
         "emailAddress": "sahil.shah208@gmail.com",
         "score": 8,
         "timeInSeconds": 767,
-        "time": "00:12:47"
+        "time": "00:12:47",
+        "numberOfTimesRespondentsLeftQuestionPage": "1"
     },
     {
         "lastName": "Sharma",
@@ -341,7 +419,8 @@
         "emailAddress": "asharmaug@gmail.com",
         "score": 8,
         "timeInSeconds": 246,
-        "time": "00:04:06"
+        "time": "00:04:06",
+        "numberOfTimesRespondentsLeftQuestionPage": "1"
     },
     {
         "lastName": "Doifode",
@@ -349,7 +428,8 @@
         "emailAddress": "vnykdfd@gmail.com",
         "score": 8,
         "timeInSeconds": 355,
-        "time": "00:05:55"
+        "time": "00:05:55",
+        "numberOfTimesRespondentsLeftQuestionPage": "1"
     },
     {
         "lastName": "Vaidya",
@@ -357,7 +437,17 @@
         "emailAddress": "sarang.vaidya@mendix.com",
         "score": 8,
         "timeInSeconds": 811,
-        "time": "00:13:31"
+        "time": "00:13:31",
+        "numberOfTimesRespondentsLeftQuestionPage": "1"
+    },
+    {
+        "lastName": "Dash",
+        "firstName": "Soundarya",
+        "emailAddress": "dashsoundarya12@gmail.com",
+        "score": 8,
+        "timeInSeconds": 421,
+        "time": "00:07:01",
+        "numberOfTimesRespondentsLeftQuestionPage": "1"
     },
     {
         "lastName": "Velu",
@@ -365,7 +455,8 @@
         "emailAddress": "dinesh.pec14@gmail.com",
         "score": 8,
         "timeInSeconds": 148,
-        "time": "00:02:28"
+        "time": "00:02:28",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "TYAGI",
@@ -373,7 +464,8 @@
         "emailAddress": "kartikeyt11@gmail.com",
         "score": 8,
         "timeInSeconds": 442,
-        "time": "00:07:22"
+        "time": "00:07:22",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Bhardwaj",
@@ -381,7 +473,8 @@
         "emailAddress": "hiraves@gmail.com",
         "score": 7,
         "timeInSeconds": 589,
-        "time": "00:09:49"
+        "time": "00:09:49",
+        "numberOfTimesRespondentsLeftQuestionPage": "4"
     },
     {
         "lastName": "L",
@@ -389,7 +482,8 @@
         "emailAddress": "atulsrinivasan12@gmail.com",
         "score": 7,
         "timeInSeconds": 390,
-        "time": "00:06:30"
+        "time": "00:06:30",
+        "numberOfTimesRespondentsLeftQuestionPage": "1"
     },
     {
         "lastName": "Jakhade",
@@ -397,7 +491,8 @@
         "emailAddress": "saurabhjakhade@gmail.com",
         "score": 7,
         "timeInSeconds": 880,
-        "time": "00:14:40"
+        "time": "00:14:40",
+        "numberOfTimesRespondentsLeftQuestionPage": "1"
     },
     {
         "lastName": "Rangasami",
@@ -405,7 +500,8 @@
         "emailAddress": "amritharangasami@gmail.com",
         "score": 7,
         "timeInSeconds": 232,
-        "time": "00:03:52"
+        "time": "00:03:52",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Gupta",
@@ -413,7 +509,8 @@
         "emailAddress": "ambrish2007@gmail.com",
         "score": 7,
         "timeInSeconds": 694,
-        "time": "00:11:34"
+        "time": "00:11:34",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Kumar",
@@ -421,7 +518,8 @@
         "emailAddress": "vishalkmr.mfp@gmail.com",
         "score": 7,
         "timeInSeconds": 749,
-        "time": "00:12:29"
+        "time": "00:12:29",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Singh",
@@ -429,7 +527,8 @@
         "emailAddress": "singh.aman2126@yahoo.com",
         "score": 7,
         "timeInSeconds": 165,
-        "time": "00:02:45"
+        "time": "00:02:45",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Thulasimani",
@@ -437,7 +536,8 @@
         "emailAddress": "sivasankari.thulasimani@gmail.com",
         "score": 7,
         "timeInSeconds": 210,
-        "time": "00:03:30"
+        "time": "00:03:30",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Yadav",
@@ -445,7 +545,8 @@
         "emailAddress": "jeety.525@gmail.com",
         "score": 7,
         "timeInSeconds": 461,
-        "time": "00:07:41"
+        "time": "00:07:41",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Bagal",
@@ -453,7 +554,8 @@
         "emailAddress": "pankajsbagal@gmail.com",
         "score": 7,
         "timeInSeconds": 807,
-        "time": "00:13:27"
+        "time": "00:13:27",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Gupta",
@@ -461,7 +563,8 @@
         "emailAddress": "udit.gupta@sixt.com",
         "score": 7,
         "timeInSeconds": 647,
-        "time": "00:10:47"
+        "time": "00:10:47",
+        "numberOfTimesRespondentsLeftQuestionPage": "4"
     },
     {
         "lastName": "chokkam",
@@ -469,7 +572,8 @@
         "emailAddress": "pruthviwhatnext@gmail.com",
         "score": 7,
         "timeInSeconds": 477,
-        "time": "00:07:57"
+        "time": "00:07:57",
+        "numberOfTimesRespondentsLeftQuestionPage": "2"
     },
     {
         "lastName": "Sunil",
@@ -477,7 +581,8 @@
         "emailAddress": "surendaarg@gmail.com",
         "score": 7,
         "timeInSeconds": 723,
-        "time": "00:12:03"
+        "time": "00:12:03",
+        "numberOfTimesRespondentsLeftQuestionPage": "1"
     },
     {
         "lastName": "Dey",
@@ -485,7 +590,8 @@
         "emailAddress": "supdey1@gmail.com",
         "score": 7,
         "timeInSeconds": 900,
-        "time": "00:15:00"
+        "time": "00:15:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "1"
     },
     {
         "lastName": "Singh",
@@ -493,7 +599,8 @@
         "emailAddress": "akhisingh6871@gmail.com",
         "score": 7,
         "timeInSeconds": 672,
-        "time": "00:11:12"
+        "time": "00:11:12",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Dhinakaran",
@@ -501,7 +608,8 @@
         "emailAddress": "padma.dhinakaran@gmail.com",
         "score": 7,
         "timeInSeconds": 749,
-        "time": "00:12:29"
+        "time": "00:12:29",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "A",
@@ -509,7 +617,8 @@
         "emailAddress": "kumaran.arumugam311@gmail.com",
         "score": 7,
         "timeInSeconds": 396,
-        "time": "00:06:36"
+        "time": "00:06:36",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Reddy",
@@ -517,7 +626,8 @@
         "emailAddress": "vcr.venu@gmail.com",
         "score": 7,
         "timeInSeconds": 346,
-        "time": "00:05:46"
+        "time": "00:05:46",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Mohammed",
@@ -525,7 +635,8 @@
         "emailAddress": "md.ansarmoinuddin786@gmail.com",
         "score": 7,
         "timeInSeconds": 283,
-        "time": "00:04:43"
+        "time": "00:04:43",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Paul",
@@ -533,7 +644,8 @@
         "emailAddress": "paulsagara122@gmail.com",
         "score": 7,
         "timeInSeconds": 164,
-        "time": "00:02:44"
+        "time": "00:02:44",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Padhi",
@@ -541,7 +653,8 @@
         "emailAddress": "rashmipadhi23@gmail.com",
         "score": 6,
         "timeInSeconds": 749,
-        "time": "00:12:29"
+        "time": "00:12:29",
+        "numberOfTimesRespondentsLeftQuestionPage": "5"
     },
     {
         "lastName": "Malik",
@@ -549,7 +662,8 @@
         "emailAddress": "mr.amarmalik.01@gmail.com",
         "score": 6,
         "timeInSeconds": 483,
-        "time": "00:08:03"
+        "time": "00:08:03",
+        "numberOfTimesRespondentsLeftQuestionPage": "1"
     },
     {
         "lastName": "Mohire",
@@ -557,7 +671,8 @@
         "emailAddress": "samohire98@gmail.com",
         "score": 6,
         "timeInSeconds": 900,
-        "time": "00:15:00"
+        "time": "00:15:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Plk",
@@ -565,7 +680,8 @@
         "emailAddress": "m.prabhu174@gmail.com",
         "score": 6,
         "timeInSeconds": 323,
-        "time": "00:05:23"
+        "time": "00:05:23",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Metla",
@@ -573,7 +689,8 @@
         "emailAddress": "harsha.metla@gmail.com",
         "score": 6,
         "timeInSeconds": 309,
-        "time": "00:05:09"
+        "time": "00:05:09",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "G",
@@ -581,7 +698,8 @@
         "emailAddress": "ambgupta@paypal.com",
         "score": 6,
         "timeInSeconds": 411,
-        "time": "00:06:51"
+        "time": "00:06:51",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Huchpeer",
@@ -589,15 +707,8 @@
         "emailAddress": "mhuchpeer@gmail.com",
         "score": 6,
         "timeInSeconds": 117,
-        "time": "00:01:57"
-    },
-    {
-        "lastName": "Kukreja",
-        "firstName": "Himanshi",
-        "emailAddress": "himanshi.1@alumni.iitj.ac.in",
-        "score": 6,
-        "timeInSeconds": 900,
-        "time": "00:15:00"
+        "time": "00:01:57",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Panda",
@@ -605,7 +716,8 @@
         "emailAddress": "panda.ranjitkumar@gmail.com",
         "score": 6,
         "timeInSeconds": 670,
-        "time": "00:11:10"
+        "time": "00:11:10",
+        "numberOfTimesRespondentsLeftQuestionPage": "2"
     },
     {
         "lastName": "S K",
@@ -613,7 +725,8 @@
         "emailAddress": "meghanask97@gmail.com",
         "score": 6,
         "timeInSeconds": 553,
-        "time": "00:09:13"
+        "time": "00:09:13",
+        "numberOfTimesRespondentsLeftQuestionPage": "1"
     },
     {
         "lastName": "V",
@@ -621,7 +734,8 @@
         "emailAddress": "nivevadivel@gmail.com",
         "score": 6,
         "timeInSeconds": 580,
-        "time": "00:09:40"
+        "time": "00:09:40",
+        "numberOfTimesRespondentsLeftQuestionPage": "1"
     },
     {
         "lastName": "Chaurasia",
@@ -629,7 +743,8 @@
         "emailAddress": "shivam_chaurasia@epam.com",
         "score": 6,
         "timeInSeconds": 356,
-        "time": "00:05:56"
+        "time": "00:05:56",
+        "numberOfTimesRespondentsLeftQuestionPage": "1"
     },
     {
         "lastName": "Chandrakar",
@@ -637,7 +752,8 @@
         "emailAddress": "prakharchandrakar12385@gmail.com",
         "score": 6,
         "timeInSeconds": 314,
-        "time": "00:05:14"
+        "time": "00:05:14",
+        "numberOfTimesRespondentsLeftQuestionPage": "1"
     },
     {
         "lastName": "Singhal",
@@ -645,7 +761,8 @@
         "emailAddress": "anugrahsinghal@gmail.com",
         "score": 6,
         "timeInSeconds": 235,
-        "time": "00:03:55"
+        "time": "00:03:55",
+        "numberOfTimesRespondentsLeftQuestionPage": "1"
     },
     {
         "lastName": "Dindeti",
@@ -653,7 +770,8 @@
         "emailAddress": "swapnadondeti@gmail.com",
         "score": 6,
         "timeInSeconds": 136,
-        "time": "00:02:16"
+        "time": "00:02:16",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Chavan",
@@ -661,7 +779,8 @@
         "emailAddress": "nareshchavan1205@gmail.com",
         "score": 6,
         "timeInSeconds": 558,
-        "time": "00:09:18"
+        "time": "00:09:18",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Prasad",
@@ -669,7 +788,8 @@
         "emailAddress": "mahadevprasadbb@gmail.com",
         "score": 6,
         "timeInSeconds": 207,
-        "time": "00:03:27"
+        "time": "00:03:27",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "B",
@@ -677,7 +797,8 @@
         "emailAddress": "manaskumar978@gmail.com",
         "score": 6,
         "timeInSeconds": 531,
-        "time": "00:08:51"
+        "time": "00:08:51",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "anand",
@@ -685,7 +806,8 @@
         "emailAddress": "sumitanand.strategic@gmail.com",
         "score": 6,
         "timeInSeconds": 224,
-        "time": "00:03:44"
+        "time": "00:03:44",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Muraleedharan",
@@ -693,7 +815,8 @@
         "emailAddress": "aarathym1996@gmail.com",
         "score": 6,
         "timeInSeconds": 404,
-        "time": "00:06:44"
+        "time": "00:06:44",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Pratik",
@@ -701,7 +824,17 @@
         "emailAddress": "aniketpratiksinha1714@gmail.com",
         "score": 6,
         "timeInSeconds": 687,
-        "time": "00:11:27"
+        "time": "00:11:27",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
+    },
+    {
+        "lastName": "Poddar",
+        "firstName": "Sach",
+        "emailAddress": "sachi.poddar@gmail.com",
+        "score": 6,
+        "timeInSeconds": 686,
+        "time": "00:11:26",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "D",
@@ -709,7 +842,8 @@
         "emailAddress": "dhanudevarajd.77@gmail.com",
         "score": 5,
         "timeInSeconds": 271,
-        "time": "00:04:31"
+        "time": "00:04:31",
+        "numberOfTimesRespondentsLeftQuestionPage": "5"
     },
     {
         "lastName": "Jindal",
@@ -717,7 +851,8 @@
         "emailAddress": "er.prakharjindal@gmail.com",
         "score": 5,
         "timeInSeconds": 230,
-        "time": "00:03:50"
+        "time": "00:03:50",
+        "numberOfTimesRespondentsLeftQuestionPage": "2"
     },
     {
         "lastName": "Pattar",
@@ -725,7 +860,8 @@
         "emailAddress": "ajitsp708@gmail.com",
         "score": 5,
         "timeInSeconds": 511,
-        "time": "00:08:31"
+        "time": "00:08:31",
+        "numberOfTimesRespondentsLeftQuestionPage": "2"
     },
     {
         "lastName": "Jha",
@@ -733,7 +869,8 @@
         "emailAddress": "jharoshan890@gmail.com",
         "score": 5,
         "timeInSeconds": 171,
-        "time": "00:02:51"
+        "time": "00:02:51",
+        "numberOfTimesRespondentsLeftQuestionPage": "1"
     },
     {
         "lastName": "Vijayakumar",
@@ -741,7 +878,8 @@
         "emailAddress": "kuttibalaji.v6@gmail.com",
         "score": 5,
         "timeInSeconds": 244,
-        "time": "00:04:04"
+        "time": "00:04:04",
+        "numberOfTimesRespondentsLeftQuestionPage": "1"
     },
     {
         "lastName": "Kumar",
@@ -749,7 +887,8 @@
         "emailAddress": "pkprabhat2017@gmail.com",
         "score": 5,
         "timeInSeconds": 316,
-        "time": "00:05:16"
+        "time": "00:05:16",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Tandon",
@@ -757,7 +896,8 @@
         "emailAddress": "amishtandon3@gmail.com",
         "score": 5,
         "timeInSeconds": 751,
-        "time": "00:12:31"
+        "time": "00:12:31",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Sadik",
@@ -765,7 +905,8 @@
         "emailAddress": "jaffarsadik.k@gmail.com",
         "score": 5,
         "timeInSeconds": 167,
-        "time": "00:02:47"
+        "time": "00:02:47",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Khedkar",
@@ -773,7 +914,8 @@
         "emailAddress": "ashok.khedkar@mendix.com",
         "score": 5,
         "timeInSeconds": 363,
-        "time": "00:06:03"
+        "time": "00:06:03",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Choudhury",
@@ -781,7 +923,8 @@
         "emailAddress": "manjuri.chd@gmail.com",
         "score": 5,
         "timeInSeconds": 195,
-        "time": "00:03:15"
+        "time": "00:03:15",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "K",
@@ -789,7 +932,8 @@
         "emailAddress": "kamey.1707@gmail.com",
         "score": 5,
         "timeInSeconds": 385,
-        "time": "00:06:25"
+        "time": "00:06:25",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Yavarna",
@@ -797,7 +941,8 @@
         "emailAddress": "yavarnasateesh@gmail.com",
         "score": 5,
         "timeInSeconds": 203,
-        "time": "00:03:23"
+        "time": "00:03:23",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Sharma",
@@ -805,7 +950,8 @@
         "emailAddress": "rohitsharama2@gmail.com",
         "score": 5,
         "timeInSeconds": 179,
-        "time": "00:02:59"
+        "time": "00:02:59",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Dixit",
@@ -813,7 +959,8 @@
         "emailAddress": "vidya4java2@gmail.com",
         "score": 5,
         "timeInSeconds": 624,
-        "time": "00:10:24"
+        "time": "00:10:24",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "G A",
@@ -821,7 +968,8 @@
         "emailAddress": "mohanseenu789@gmail.com",
         "score": 5,
         "timeInSeconds": 221,
-        "time": "00:03:41"
+        "time": "00:03:41",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Das",
@@ -829,7 +977,8 @@
         "emailAddress": "suvankar.cse.ju@gmail.com",
         "score": 5,
         "timeInSeconds": 183,
-        "time": "00:03:03"
+        "time": "00:03:03",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "M",
@@ -837,7 +986,8 @@
         "emailAddress": "niveditha.veeranagouda1@gmail.com",
         "score": 5,
         "timeInSeconds": 353,
-        "time": "00:05:53"
+        "time": "00:05:53",
+        "numberOfTimesRespondentsLeftQuestionPage": "2"
     },
     {
         "lastName": "Sathiyamurthy l",
@@ -845,7 +995,8 @@
         "emailAddress": "asathiy4@ford.com",
         "score": 5,
         "timeInSeconds": 139,
-        "time": "00:02:19"
+        "time": "00:02:19",
+        "numberOfTimesRespondentsLeftQuestionPage": "1"
     },
     {
         "lastName": "Shivalingaiah",
@@ -853,7 +1004,8 @@
         "emailAddress": "kiranlakshajoint@gmail.com",
         "score": 5,
         "timeInSeconds": 900,
-        "time": "00:15:00"
+        "time": "00:15:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "1"
     },
     {
         "lastName": "Patel",
@@ -861,7 +1013,17 @@
         "emailAddress": "harshad11484@gmail.com",
         "score": 5,
         "timeInSeconds": 900,
-        "time": "00:15:00"
+        "time": "00:15:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "1"
+    },
+    {
+        "lastName": "Tiwari",
+        "firstName": "Anurag",
+        "emailAddress": "tiwari.anurag126@gmail.com",
+        "score": 5,
+        "timeInSeconds": 514,
+        "time": "00:08:34",
+        "numberOfTimesRespondentsLeftQuestionPage": "1"
     },
     {
         "lastName": "Gosala",
@@ -869,7 +1031,8 @@
         "emailAddress": "sowjanya.gosala@gmail.com",
         "score": 5,
         "timeInSeconds": 209,
-        "time": "00:03:29"
+        "time": "00:03:29",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "M",
@@ -877,7 +1040,8 @@
         "emailAddress": "adarsha.m002@gmail.com",
         "score": 5,
         "timeInSeconds": 163,
-        "time": "00:02:43"
+        "time": "00:02:43",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Ranawat",
@@ -885,7 +1049,8 @@
         "emailAddress": "premranawat90@gmail.com",
         "score": 5,
         "timeInSeconds": 391,
-        "time": "00:06:31"
+        "time": "00:06:31",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "MariaMicheal",
@@ -893,7 +1058,8 @@
         "emailAddress": "sun.leo04@gmail.com",
         "score": 4,
         "timeInSeconds": 900,
-        "time": "00:15:00"
+        "time": "00:15:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "2"
     },
     {
         "lastName": "S",
@@ -901,7 +1067,8 @@
         "emailAddress": "gujjarsuman@gmail.com",
         "score": 4,
         "timeInSeconds": 900,
-        "time": "00:15:00"
+        "time": "00:15:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "1"
     },
     {
         "lastName": "Swain",
@@ -909,7 +1076,8 @@
         "emailAddress": "swainamal@gmail.com",
         "score": 4,
         "timeInSeconds": 333,
-        "time": "00:05:33"
+        "time": "00:05:33",
+        "numberOfTimesRespondentsLeftQuestionPage": "1"
     },
     {
         "lastName": "Srivastava",
@@ -917,7 +1085,8 @@
         "emailAddress": "prns366@gmail.com",
         "score": 4,
         "timeInSeconds": 900,
-        "time": "00:15:00"
+        "time": "00:15:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "1"
     },
     {
         "lastName": "Agarwal",
@@ -925,7 +1094,8 @@
         "emailAddress": "agarwalakhil006@gmail.com",
         "score": 4,
         "timeInSeconds": 271,
-        "time": "00:04:31"
+        "time": "00:04:31",
+        "numberOfTimesRespondentsLeftQuestionPage": "1"
     },
     {
         "lastName": "Anand",
@@ -933,7 +1103,8 @@
         "emailAddress": "abhishek_muse@yahoo.co.in",
         "score": 4,
         "timeInSeconds": 900,
-        "time": "00:15:00"
+        "time": "00:15:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Dubey",
@@ -941,7 +1112,8 @@
         "emailAddress": "mjdubey1990@gmail.com",
         "score": 4,
         "timeInSeconds": 199,
-        "time": "00:03:19"
+        "time": "00:03:19",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Agrawal",
@@ -949,7 +1121,8 @@
         "emailAddress": "pratikagrawal2008@gmail.com",
         "score": 4,
         "timeInSeconds": 450,
-        "time": "00:07:30"
+        "time": "00:07:30",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Bhattacharya",
@@ -957,7 +1130,8 @@
         "emailAddress": "bhattacharya.debdutta@gmail.com",
         "score": 4,
         "timeInSeconds": 900,
-        "time": "00:15:00"
+        "time": "00:15:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Saboo",
@@ -965,7 +1139,8 @@
         "emailAddress": "raghav.saboo.work@gmail.com",
         "score": 4,
         "timeInSeconds": 372,
-        "time": "00:06:12"
+        "time": "00:06:12",
+        "numberOfTimesRespondentsLeftQuestionPage": "2"
     },
     {
         "lastName": "Rangasamy",
@@ -973,7 +1148,8 @@
         "emailAddress": "aishwaryarangasamy@gmail.com",
         "score": 4,
         "timeInSeconds": 395,
-        "time": "00:06:35"
+        "time": "00:06:35",
+        "numberOfTimesRespondentsLeftQuestionPage": "1"
     },
     {
         "lastName": "C",
@@ -981,7 +1157,8 @@
         "emailAddress": "sathwikareddyc@gmail.com",
         "score": 4,
         "timeInSeconds": 284,
-        "time": "00:04:44"
+        "time": "00:04:44",
+        "numberOfTimesRespondentsLeftQuestionPage": "1"
     },
     {
         "lastName": "Mir",
@@ -989,7 +1166,8 @@
         "emailAddress": "zairanmir123@gmail.com",
         "score": 4,
         "timeInSeconds": 695,
-        "time": "00:11:35"
+        "time": "00:11:35",
+        "numberOfTimesRespondentsLeftQuestionPage": "1"
     },
     {
         "lastName": "chakkere",
@@ -997,7 +1175,8 @@
         "emailAddress": "shruthi.s.chakkere@gmail.com",
         "score": 4,
         "timeInSeconds": 300,
-        "time": "00:05:00"
+        "time": "00:05:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "1"
     },
     {
         "lastName": "Gour",
@@ -1005,7 +1184,8 @@
         "emailAddress": "shivanshuseven@gmail.com",
         "score": 4,
         "timeInSeconds": 72,
-        "time": "00:01:12"
+        "time": "00:01:12",
+        "numberOfTimesRespondentsLeftQuestionPage": "1"
     },
     {
         "lastName": "Sharma",
@@ -1013,7 +1193,8 @@
         "emailAddress": "girija.rakesh@gmail.com",
         "score": 4,
         "timeInSeconds": 900,
-        "time": "00:15:00"
+        "time": "00:15:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Gopalaiah",
@@ -1021,7 +1202,8 @@
         "emailAddress": "jagadish.gopal@gmail.com",
         "score": 4,
         "timeInSeconds": 80,
-        "time": "00:01:20"
+        "time": "00:01:20",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "M",
@@ -1029,7 +1211,8 @@
         "emailAddress": "arvindmurli2001@gmail.com",
         "score": 4,
         "timeInSeconds": 250,
-        "time": "00:04:10"
+        "time": "00:04:10",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Singla",
@@ -1037,7 +1220,8 @@
         "emailAddress": "dhruvsingla07@gmail.com",
         "score": 3,
         "timeInSeconds": 900,
-        "time": "00:15:00"
+        "time": "00:15:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "1"
     },
     {
         "lastName": "kumar",
@@ -1045,7 +1229,8 @@
         "emailAddress": "kumarabhishek915@gmail.com",
         "score": 3,
         "timeInSeconds": 900,
-        "time": "00:15:00"
+        "time": "00:15:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Martin Thiagaraj",
@@ -1053,7 +1238,8 @@
         "emailAddress": "josephkohilan@gmail.com",
         "score": 3,
         "timeInSeconds": 900,
-        "time": "00:15:00"
+        "time": "00:15:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "KSR",
@@ -1061,7 +1247,17 @@
         "emailAddress": "logxksr@gmail.com",
         "score": 3,
         "timeInSeconds": 900,
-        "time": "00:15:00"
+        "time": "00:15:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "3"
+    },
+    {
+        "lastName": "R",
+        "firstName": "kesavamoorthi",
+        "emailAddress": "kesavamoorthi1990@gmail.com",
+        "score": 3,
+        "timeInSeconds": 484,
+        "time": "00:08:04",
+        "numberOfTimesRespondentsLeftQuestionPage": "2"
     },
     {
         "lastName": "Chimakurthi",
@@ -1069,7 +1265,17 @@
         "emailAddress": "ramakrishnachimakurthy@gmail.com",
         "score": 3,
         "timeInSeconds": 900,
-        "time": "00:15:00"
+        "time": "00:15:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "1"
+    },
+    {
+        "lastName": "Kaur",
+        "firstName": "Rattanleen",
+        "emailAddress": "rattan.kaur555@gmail.com",
+        "score": 3,
+        "timeInSeconds": 257,
+        "time": "00:04:17",
+        "numberOfTimesRespondentsLeftQuestionPage": "1"
     },
     {
         "lastName": "GN",
@@ -1077,7 +1283,8 @@
         "emailAddress": "gireesh.gn001@gmail.com",
         "score": 3,
         "timeInSeconds": 900,
-        "time": "00:15:00"
+        "time": "00:15:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "S",
@@ -1085,7 +1292,17 @@
         "emailAddress": "sankol.rashmi@gmail.com",
         "score": 3,
         "timeInSeconds": 524,
-        "time": "00:08:44"
+        "time": "00:08:44",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
+    },
+    {
+        "lastName": "Gupta",
+        "firstName": "Ashish",
+        "emailAddress": "ashish160294@gmail.com",
+        "score": 3,
+        "timeInSeconds": 900,
+        "time": "00:15:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "M",
@@ -1093,7 +1310,8 @@
         "emailAddress": "rohanmulay94@gmail.com",
         "score": 2,
         "timeInSeconds": 900,
-        "time": "00:15:00"
+        "time": "00:15:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "2"
     },
     {
         "lastName": "Singh",
@@ -1101,7 +1319,8 @@
         "emailAddress": "rahulsingh99082919@gmail.com",
         "score": 2,
         "timeInSeconds": 900,
-        "time": "00:15:00"
+        "time": "00:15:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Patanwala",
@@ -1109,7 +1328,8 @@
         "emailAddress": "abdulkader.patanwala@outlook.com",
         "score": 2,
         "timeInSeconds": 900,
-        "time": "00:15:00"
+        "time": "00:15:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Namdev",
@@ -1117,7 +1337,8 @@
         "emailAddress": "anoopndev@gmail.com",
         "score": 2,
         "timeInSeconds": 900,
-        "time": "00:15:00"
+        "time": "00:15:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "4"
     },
     {
         "lastName": "Sikarwar",
@@ -1125,7 +1346,17 @@
         "emailAddress": "mansisikarwar01@gmail.com",
         "score": 2,
         "timeInSeconds": 900,
-        "time": "00:15:00"
+        "time": "00:15:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "1"
+    },
+    {
+        "lastName": "S",
+        "firstName": "Rohith",
+        "emailAddress": "rohithvepery8@gmail.com",
+        "score": 2,
+        "timeInSeconds": 900,
+        "time": "00:15:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "1"
     },
     {
         "lastName": "Padmnav",
@@ -1133,7 +1364,8 @@
         "emailAddress": "pratyushpadmnav@gmail.com",
         "score": 2,
         "timeInSeconds": 357,
-        "time": "00:05:57"
+        "time": "00:05:57",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "GHOSH",
@@ -1141,7 +1373,8 @@
         "emailAddress": "ishan.k.ghosh3@gmail.com",
         "score": 2,
         "timeInSeconds": 900,
-        "time": "00:15:00"
+        "time": "00:15:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "M",
@@ -1149,7 +1382,8 @@
         "emailAddress": "mmk0016@ymail.com",
         "score": 2,
         "timeInSeconds": 108,
-        "time": "00:01:48"
+        "time": "00:01:48",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Gour",
@@ -1157,7 +1391,8 @@
         "emailAddress": "shivanshugour19@gmail.com",
         "score": 2,
         "timeInSeconds": 58,
-        "time": "00:00:58"
+        "time": "00:00:58",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Anand",
@@ -1165,7 +1400,8 @@
         "emailAddress": "divinediwya@gmail.com",
         "score": 1,
         "timeInSeconds": 900,
-        "time": "00:15:00"
+        "time": "00:15:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "4"
     },
     {
         "lastName": "R",
@@ -1173,7 +1409,8 @@
         "emailAddress": "sivarank@gmail.com",
         "score": 1,
         "timeInSeconds": 900,
-        "time": "00:15:00"
+        "time": "00:15:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "4"
     },
     {
         "lastName": "M",
@@ -1181,7 +1418,8 @@
         "emailAddress": "spadesofgowtham@gmail.com",
         "score": 1,
         "timeInSeconds": 900,
-        "time": "00:15:00"
+        "time": "00:15:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "3"
     },
     {
         "lastName": "Sharma",
@@ -1189,7 +1427,8 @@
         "emailAddress": "ashishjgec23@gmail.com",
         "score": 1,
         "timeInSeconds": 900,
-        "time": "00:15:00"
+        "time": "00:15:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "1"
     },
     {
         "lastName": "B",
@@ -1197,7 +1436,8 @@
         "emailAddress": "shrirambhat94@gmail.com",
         "score": 1,
         "timeInSeconds": 900,
-        "time": "00:15:00"
+        "time": "00:15:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "1"
     },
     {
         "lastName": "S",
@@ -1205,7 +1445,8 @@
         "emailAddress": "nagarajanyas@gmail.com",
         "score": 1,
         "timeInSeconds": 900,
-        "time": "00:15:00"
+        "time": "00:15:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "R",
@@ -1213,7 +1454,8 @@
         "emailAddress": "r.selvam555@gmail.com",
         "score": 1,
         "timeInSeconds": 900,
-        "time": "00:15:00"
+        "time": "00:15:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "S",
@@ -1221,7 +1463,8 @@
         "emailAddress": "krishnashettar89@gmail.com",
         "score": 1,
         "timeInSeconds": 900,
-        "time": "00:15:00"
+        "time": "00:15:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Jain",
@@ -1229,7 +1472,8 @@
         "emailAddress": "siddhjain44@gmail.com",
         "score": 1,
         "timeInSeconds": 900,
-        "time": "00:15:00"
+        "time": "00:15:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "5"
     },
     {
         "lastName": "Purohit",
@@ -1237,7 +1481,17 @@
         "emailAddress": "hitesh.purohit28@gmail.com",
         "score": 1,
         "timeInSeconds": 900,
-        "time": "00:15:00"
+        "time": "00:15:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "1"
+    },
+    {
+        "lastName": "Khare",
+        "firstName": "Naman",
+        "emailAddress": "nmnkhr10@gmail.com",
+        "score": 1,
+        "timeInSeconds": 900,
+        "time": "00:15:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "1"
     },
     {
         "lastName": "Gorinta",
@@ -1245,7 +1499,8 @@
         "emailAddress": "gvsharma4@gmail.com",
         "score": 1,
         "timeInSeconds": 900,
-        "time": "00:15:00"
+        "time": "00:15:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Kumar",
@@ -1253,7 +1508,8 @@
         "emailAddress": "swysoft@gmail.com",
         "score": 0,
         "timeInSeconds": 900,
-        "time": "00:15:00"
+        "time": "00:15:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "3"
     },
     {
         "lastName": "Beemreddy",
@@ -1261,7 +1517,8 @@
         "emailAddress": "rajubeemreddy@gmail.com",
         "score": 0,
         "timeInSeconds": 900,
-        "time": "00:15:00"
+        "time": "00:15:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "2"
     },
     {
         "lastName": "Sharan",
@@ -1269,7 +1526,8 @@
         "emailAddress": "rscrazykool@gmail.com",
         "score": 0,
         "timeInSeconds": 900,
-        "time": "00:15:00"
+        "time": "00:15:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "1"
     },
     {
         "lastName": "Bhardwaj",
@@ -1277,7 +1535,8 @@
         "emailAddress": "b.pooja0508@gmail.com",
         "score": 0,
         "timeInSeconds": 900,
-        "time": "00:15:00"
+        "time": "00:15:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "1"
     },
     {
         "lastName": "Vadnere",
@@ -1285,7 +1544,8 @@
         "emailAddress": "bharat00091@gmail.com",
         "score": 0,
         "timeInSeconds": 900,
-        "time": "00:15:00"
+        "time": "00:15:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "1"
     },
     {
         "lastName": "Garg",
@@ -1293,7 +1553,8 @@
         "emailAddress": "salonigarg445@gmail.com",
         "score": 0,
         "timeInSeconds": 900,
-        "time": "00:15:00"
+        "time": "00:15:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Amarnath",
@@ -1301,7 +1562,8 @@
         "emailAddress": "prad2612@gmail.com",
         "score": 0,
         "timeInSeconds": 900,
-        "time": "00:15:00"
+        "time": "00:15:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Sharma",
@@ -1309,7 +1571,8 @@
         "emailAddress": "brainaashish@gmail.com",
         "score": 0,
         "timeInSeconds": 900,
-        "time": "00:15:00"
+        "time": "00:15:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "M",
@@ -1317,7 +1580,8 @@
         "emailAddress": "sriyu23@gmail.com",
         "score": 0,
         "timeInSeconds": 900,
-        "time": "00:15:00"
+        "time": "00:15:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Gupta",
@@ -1325,7 +1589,8 @@
         "emailAddress": "asg.akash.gupta@gmail.com",
         "score": 0,
         "timeInSeconds": 900,
-        "time": "00:15:00"
+        "time": "00:15:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Bhardwaj",
@@ -1333,7 +1598,8 @@
         "emailAddress": "jaybitspilani@gmail.com",
         "score": 0,
         "timeInSeconds": 900,
-        "time": "00:15:00"
+        "time": "00:15:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "T",
@@ -1341,7 +1607,8 @@
         "emailAddress": "loki28179@gmail.com",
         "score": 0,
         "timeInSeconds": 900,
-        "time": "00:15:00"
+        "time": "00:15:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Goyal",
@@ -1349,7 +1616,8 @@
         "emailAddress": "sakhi691998@gmail.com",
         "score": 0,
         "timeInSeconds": 900,
-        "time": "00:15:00"
+        "time": "00:15:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Vadivelavan",
@@ -1357,7 +1625,8 @@
         "emailAddress": "varunvelavan@gmail.com",
         "score": 0,
         "timeInSeconds": 900,
-        "time": "00:15:00"
+        "time": "00:15:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Bopaliya",
@@ -1365,7 +1634,8 @@
         "emailAddress": "bbopaliya@gmail.com",
         "score": 0,
         "timeInSeconds": 900,
-        "time": "00:15:00"
+        "time": "00:15:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Sen",
@@ -1373,7 +1643,8 @@
         "emailAddress": "chanchalsen.it@gmail.com",
         "score": 0,
         "timeInSeconds": 900,
-        "time": "00:15:00"
+        "time": "00:15:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "AB",
@@ -1381,7 +1652,8 @@
         "emailAddress": "angadiprem7@gmail.com",
         "score": 0,
         "timeInSeconds": 37,
-        "time": "00:00:37"
+        "time": "00:00:37",
+        "numberOfTimesRespondentsLeftQuestionPage": "1"
     },
     {
         "lastName": "Kumar",
@@ -1389,7 +1661,8 @@
         "emailAddress": "ajit2936@gmail.com",
         "score": 0,
         "timeInSeconds": 900,
-        "time": "00:15:00"
+        "time": "00:15:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Suryavanshi",
@@ -1397,7 +1670,8 @@
         "emailAddress": "official.shwetasuryavanshi@gmail.com",
         "score": 0,
         "timeInSeconds": 900,
-        "time": "00:15:00"
+        "time": "00:15:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Gaur",
@@ -1405,7 +1679,8 @@
         "emailAddress": "gunjangaur04@gmail.com",
         "score": 0,
         "timeInSeconds": 900,
-        "time": "00:15:00"
+        "time": "00:15:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Agrawal",
@@ -1413,7 +1688,8 @@
         "emailAddress": "agrawaljitesh1508@gmail.com",
         "score": 0,
         "timeInSeconds": 900,
-        "time": "00:15:00"
+        "time": "00:15:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Pai",
@@ -1421,7 +1697,8 @@
         "emailAddress": "abhishekvpai@gmail.com",
         "score": 0,
         "timeInSeconds": 900,
-        "time": "00:15:00"
+        "time": "00:15:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Boya",
@@ -1429,7 +1706,8 @@
         "emailAddress": "boya.raghavendra@gmail.com",
         "score": 0,
         "timeInSeconds": 900,
-        "time": "00:15:00"
+        "time": "00:15:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Salian",
@@ -1437,7 +1715,8 @@
         "emailAddress": "pramodsalian.k@gmail.com",
         "score": 0,
         "timeInSeconds": 900,
-        "time": "00:15:00"
+        "time": "00:15:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "K",
@@ -1445,7 +1724,8 @@
         "emailAddress": "jayakrishna1412@gmail.com",
         "score": 0,
         "timeInSeconds": 900,
-        "time": "00:15:00"
+        "time": "00:15:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Parulekar",
@@ -1453,7 +1733,8 @@
         "emailAddress": "jp3076@gmail.com",
         "score": 0,
         "timeInSeconds": 900,
-        "time": "00:15:00"
+        "time": "00:15:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Pandey",
@@ -1461,7 +1742,8 @@
         "emailAddress": "prachi157@gmail.com",
         "score": 0,
         "timeInSeconds": 900,
-        "time": "00:15:00"
+        "time": "00:15:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     },
     {
         "lastName": "Tom",
@@ -1469,6 +1751,16 @@
         "emailAddress": "mobile.ravitom@gmail.com",
         "score": 0,
         "timeInSeconds": 900,
-        "time": "00:15:00"
+        "time": "00:15:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
+    },
+    {
+        "lastName": "Kommi",
+        "firstName": "Sai Sagar",
+        "emailAddress": "saisagarkommi@gmail.com",
+        "score": 0,
+        "timeInSeconds": 900,
+        "time": "00:15:00",
+        "numberOfTimesRespondentsLeftQuestionPage": "0"
     }
 ]
