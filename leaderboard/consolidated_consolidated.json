@@ -1,14 +1,5 @@
 [
     {
-        "lastName": "Shah",
-        "firstName": "Pratik",
-        "emailAddress": "psh@narola.email",
-        "score": 19,
-        "timeInSeconds": 880,
-        "time": "00:14:40",
-        "numberOfTimesRespondentsLeftQuestionPage": "3"
-    },
-    {
         "lastName": "Patel",
         "firstName": "Prashant",
         "emailAddress": "pmp@narola.email",
@@ -34,6 +25,15 @@
         "timeInSeconds": 895,
         "time": "00:14:55",
         "numberOfTimesRespondentsLeftQuestionPage": "0"
+    },
+    {
+        "lastName": "Shah",
+        "firstName": "Pratik",
+        "emailAddress": "psh@narola.email",
+        "score": 19,
+        "timeInSeconds": 880,
+        "time": "00:14:40",
+        "numberOfTimesRespondentsLeftQuestionPage": "3"
     },
     {
         "lastName": "C",
