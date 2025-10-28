@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" sizes="32x32"
+    href="https://www.arcesium.com/wp-content/themes/arcesium/assets/fav/favicon-32x32.png">
+  <title>UI with AI Battle - Challenge 1</title>
+  <style>
+    body {
+      background-color: #00AEEF;
+      color: #ffffff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    h1 {
+      color: #ffffff;
+      margin-bottom: 1rem;
+      font-size: 3.6vh;
+    }
+
+    .logo {
+      width: 80px;
+      height: 80px;
+      margin-bottom: 1rem;
+      background-image: url('../../assets/arcesium.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .content {
+      max-width: 800px;
+      margin: 2rem auto;
+      text-align: left;
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 2rem;
+      border-radius: 10px;
+    }
+
+    .button {
+      display: inline-block;
+      background-color: #ffffff;
+      color: #00AEEF;
+      padding: 0.8rem 1.5rem;
+      border: 2px solid #6c6f6f;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 1.5rem;
+      transition: background-color 0.3s, transform 0.2s;
+    }
+
+    .button:hover {
+      background-color: #c7cece;
+      color: #121212;
+      transform: scale(1.03);
+    }
+
+    .footer {
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #ffffff;
+    }
+
+    @media (width <=850px) {
+      body {
+        padding: 1rem;
+      }
+
+      .content {
+        padding: 1rem;
+        margin: 1rem;
+      }
+    }
+  </style>
+  <style>
+    .image-container {
+      margin: 2rem 0;
+      padding: 1rem;
+      background-color: rgba(255, 255, 255, 0.05);
+      border-radius: 8px;
+      text-align: center;
+    }
+
+    .prototype-image {
+      max-width: 100%;
+      height: auto;
+      border: 2px solid #ffffff;
+      border-radius: 4px;
+      margin: 1rem 0;
+    }
+
+    .image-note {
+      font-size: 0.9rem;
+      font-style: italic;
+      margin-top: 0.5rem;
+    }
+
+    .submit-button {
+      display: inline-block;
+      background-color: #ffffff;
+      color: #00AEEF;
+      padding: 1rem 2rem;
+      border: 2px solid #6c6f6f;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.2rem;
+      margin: 2rem 0 1rem 0;
+      transition: background-color 0.3s, transform 0.2s;
+    }
+
+    .submit-button:hover {
+      background-color: #c7cece;
+      color: #121212;
+      transform: scale(1.03);
+    }
+
+    h2 {
+      color: #ffffff;
+      margin-bottom: 1.5rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+      padding-bottom: 0.5rem;
+    }
+
+    ol,
+    ul {
+      text-align: left;
+      margin-left: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    li {
+      margin-bottom: 0.5rem;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="logo"></div>
+  <h1>UI with AI Battle - Challenge 1</h1>
+  <div class="content">
+    <h2>UI with AI Battle - Challenge 1</h2>
+
+    <p>Welcome to the UI with AI Battle Challenge! In this challenge, you will:</p>
+
+    <ol>
+      <li>Examine the prototype image below</li>
+      <li>Write a prompt that will help generate code to recreate this UI</li>
+      <li>Submit your prompt using the button below</li>
+    </ol>
+
+    <p><strong>Rules:</strong></p>
+    <ul>
+      <li>Your prompt should be clear, detailed, and focused on recreating the UI shown in the prototype</li>
+      <li>You will be evaluated on how well the generated code matches the prototype</li>
+      <li>Claude Sonnet 4.5 will be used to evaluate your prompt and generate the code</li>
+    </ul>
+
+    <div class="image-container">
+      <p><strong>Prototype Image:</strong></p>
+      <img src="../images/challenge1.png" alt="Challenge 1 Prototype" class="prototype-image">
+      <p class="image-note">Note: This is the UI you need to recreate with your prompt</p>
+    </div>
+
+    <a href="https://forms.arcesium.com/ui-ai-battle-submission" target="_blank" class="submit-button">Submit your
+      prompt</a>
+  </div>
+  <a href="../index.html" class="button">Back to Challenges</a>
+  <div class="footer">React Conf 2025 - UI with AI Battle</div>
+</body>
+
+</html>
