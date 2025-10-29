@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32"
+    href="https://www.arcesium.com/wp-content/themes/arcesium/assets/fav/favicon-32x32.png">
+  <title>Arcquizitive - Day 1 Challenge</title>
+  <style>
+    html,
+    body {
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      font-size: 2.5vh;
+    }
+
+    .bg {
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .l1 {
+      background-image: url('../../../assets/background.png');
+    }
+
+    @media (width <=850px) {
+      .l2 {
+        background-image: url('../../../assets/elements-90.png');
+      }
+    }
+
+    @media (width > 850px) {
+      .l2 {
+        background-image: url('../../../assets/elements.png');
+      }
+    }
+
+    .l2 {
+      width: 100vw;
+    }
+
+    h1 {
+      color: #fff084;
+      font-size: 3.6vh;
+      font-weight: 400;
+    }
+
+    h2 {
+      font-weight: lighter;
+      font-size: 3vh;
+    }
+
+    ul {
+      font-weight: lighter;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    li {
+      font-size: 2.6vh;
+      margin: 1.5vh 0;
+    }
+
+    img {
+      margin-bottom: 10vh;
+      height: 6vh;
+    }
+
+    a {
+      color: unset;
+      text-decoration: unset;
+    }
+
+    a:hover {
+      color: rgba(255, 255, 255, 0.5);
+    }
+
+    .button {
+      display: inline-block;
+      background-color: #ffffff;
+      color: #00AEEF;
+      padding: 0.8rem 1.5rem;
+      border: 2px solid #6c6f6f;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 1.5rem;
+      transition: background-color 0.3s, transform 0.2s;
+    }
+
+    .button:hover {
+      background-color: #c7cece;
+      color: #121212;
+      transform: scale(1.03);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="bg l1">
+    <div class="bg l2">
+      <div class="logo">
+        <img src="../../../assets/arcesium.png" alt="Arcesium" />
+      </div>
+      <h1>Arcquizitive - Day 1 Challenge</h1>
+      <h2>Test your knowledge and win exciting prizes!</h2>
+
+      <div>
+        <p>You are a bit late! This quiz is over.</p>
+        <a href="../../index.html" class="button">Back to Challenges</a>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
